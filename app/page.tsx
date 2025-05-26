@@ -1,6 +1,5 @@
+import MedalCountContainer from "@/app/medals/page";
 
-const Home: React.FC = () => {
-  return <h1>Medal Count App</h1>
+export default function Home() {
+  return <MedalCountContainer />;
 }
-
-export default Home;

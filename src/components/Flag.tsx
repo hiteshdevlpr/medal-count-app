@@ -10,4 +10,4 @@ export default function Flag({ code }: { code: string }) {
       <span style={{backgroundImage: `url(/flags.png)`, backgroundSize: "cover", backgroundPosition: `0px -${idx * FLAG_HEIGHT}px`, width: "32px", height: "18px", display: "inline-block"}}></span>
     </div>
   );
-} 
+}
